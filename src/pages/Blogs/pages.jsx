@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Blog = () => {
-    const [blogs, setBlogs] = useState([
+    const [blogs] = useState([
         { name: 'uber', url: 'https://www.uber.com/en-US/blog/engineering/', image: '/images/uber.png' },
         { name: 'aws', url: 'https://aws.amazon.com/blogs/', image: '/images/aws.png' },
         { name: 'google for developer', url: 'https://developers.googleblog.com/en/', image: '/images/google.png' },
