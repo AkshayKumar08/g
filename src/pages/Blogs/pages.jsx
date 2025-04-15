@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 
 const Blog = () => {
     const [blogs] = useState([
+        { name: 'ACL', url: 'https://2024.aclweb.org/program/best_papers/', image: '/g/images/acl.png' },
+        { name: 'NAACL', url: 'https://2024.naacl.org/', image: '/g/images/naacl.png' },
+        { name: 'EMNLP', url: 'https://2024.emnlp.org/', image: '/g/images/emnlp.png' },
+        { name: 'anthropic', url: 'https://alignment.anthropic.com/', image: '/g/images/anthropic.png' },
         { name: 'uber', url: 'https://www.uber.com/en-US/blog/engineering/', image: '/g/images/uber.png' },
         { name: 'adobe', url: 'https://blog.developer.adobe.com/tagged/adobe-engineering', image: '/g/images/adobe.png' },
         { name: 'aws', url: 'https://aws.amazon.com/blogs/', image: '/g/images/aws.png' },
